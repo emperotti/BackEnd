@@ -15,6 +15,6 @@ app.use(routes);
 
 
 
-app.listen(8081, () => {
-  console.log("Servidor funcionando na porta: 8081" );
+app.listen(config.port || 8081, () => {
+  console.log("Servidor funcionando na porta: 8081");
 });
